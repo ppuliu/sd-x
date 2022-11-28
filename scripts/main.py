@@ -156,10 +156,10 @@ def on_ui_tabs():
           init_mask_inpaint, 
           mask_mode
       ) = (
-          modules.ui.img2img_paste_fields[15][0], 
           modules.ui.img2img_paste_fields[16][0], 
-          modules.ui.img2img_paste_fields[17][0],
-          modules.ui.img2img_paste_fields[18][0]
+          modules.ui.img2img_paste_fields[17][0], 
+          modules.ui.img2img_paste_fields[18][0],
+          modules.ui.img2img_paste_fields[19][0]
           )
       with gr.Tab("Remove Background"):
           with gr.Row():
